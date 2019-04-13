@@ -96,7 +96,7 @@ Drob_ Drob_::operator/=(const Drob_ & b)
 	return *this;
 }
 
-// гл.функция оператора "+" для типа данных Drob_
+// глобальная функция оператора "+" для типа данных Drob_
 Drob_ operator+(const Drob_ & a, const Drob_ & b)
 {
 	Drob_ c = a;
